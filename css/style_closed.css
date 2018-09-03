@@ -8,6 +8,10 @@ html{
     font-family: 'Muli', arial, sans-serif;
 }
 
+html, button, input, select, textarea,
+    .pure-g [class *= "pure-u"] {
+        font-family: 'Muli', arial, serif;
+}
 
 
 #main{
@@ -29,14 +33,6 @@ html{
     border-style: solid black;
     border-bottom:  5.5px solid #ffffff;
     padding-bottom: 3px;
-}
-
-@media only screen and (max-width: 550px) {
-
-   body {
-      font-size: 7px;
-   }
-
 }
 
 
